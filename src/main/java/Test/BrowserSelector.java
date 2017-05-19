@@ -20,7 +20,7 @@ public class BrowserSelector extends BasePage {
             driver = new FirefoxDriver();
 
         }else if(browser.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\Resources\\BrowserDriver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\resources\\BrowserDriver\\chromedriver.exe");
             DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-extensions", "--disable-infobars", "--disable-save-password-bubble","--disable-notification");
@@ -28,7 +28,7 @@ public class BrowserSelector extends BasePage {
             driver = new ChromeDriver(options);
 
         }else if(browser.equalsIgnoreCase("ie")){
-            System.setProperty("webdriver.ie.driver","C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\Resources\\BrowserDriver\\IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver","C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\resources\\BrowserDriver\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
 
         }else {

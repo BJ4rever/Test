@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/Resources/Test/search.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Test/search.feature");
 formatter.feature({
   "line": 2,
   "name": "User should able to use search functionality to find any product",
@@ -73,7 +73,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7400916957,
+  "duration": 6388535056,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTescoHomePage()"
 });
 formatter.result({
-  "duration": 8222759771,
+  "duration": 5363808574,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "MyStepdefs.user_search_for_any_on_search_menu(String)"
 });
 formatter.result({
-  "duration": 3497245927,
+  "duration": 3134772482,
   "status": "passed"
 });
 formatter.match({
@@ -141,15 +141,15 @@ formatter.match({
   "location": "MyStepdefs.user_should_able_to_view_all_related_as_a_search_result(String)"
 });
 formatter.result({
-  "duration": 1337874162,
+  "duration": 1495119298,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2283724143,
+  "duration": 1217095812,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4547973685,
+  "duration": 4545750025,
   "status": "passed"
 });
 formatter.scenario({
@@ -191,7 +191,7 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTescoHomePage()"
 });
 formatter.result({
-  "duration": 5589627044,
+  "duration": 6057881726,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "MyStepdefs.user_search_for_any_on_search_menu(String)"
 });
 formatter.result({
-  "duration": 3384555481,
+  "duration": 3107478372,
   "status": "passed"
 });
 formatter.match({
@@ -217,15 +217,15 @@ formatter.match({
   "location": "MyStepdefs.user_should_able_to_view_all_related_as_a_search_result(String)"
 });
 formatter.result({
-  "duration": 1554825980,
+  "duration": 1197676881,
   "status": "passed"
 });
 formatter.after({
-  "duration": 936955029,
+  "duration": 970667897,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4914190344,
+  "duration": 4446215874,
   "status": "passed"
 });
 formatter.scenario({
@@ -267,7 +267,7 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTescoHomePage()"
 });
 formatter.result({
-  "duration": 5207579167,
+  "duration": 4915953410,
   "status": "passed"
 });
 formatter.match({
@@ -280,7 +280,7 @@ formatter.match({
   "location": "MyStepdefs.user_search_for_any_on_search_menu(String)"
 });
 formatter.result({
-  "duration": 2988059099,
+  "duration": 3202078485,
   "status": "passed"
 });
 formatter.match({
@@ -293,11 +293,11 @@ formatter.match({
   "location": "MyStepdefs.user_should_able_to_view_all_related_as_a_search_result(String)"
 });
 formatter.result({
-  "duration": 1720891119,
+  "duration": 1420430432,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1133285895,
+  "duration": 2084772155,
   "status": "passed"
 });
 });

@@ -15,7 +15,7 @@ public class LoadProp extends BasePage {
     public String getProperty(String key){
         prop = new Properties();
         try {
-            input = new FileInputStream("C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\Resources\\config.properties");
+            input = new FileInputStream("C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\resources\\config.properties");
             prop.load(input);
         }
         catch (IOException e){
