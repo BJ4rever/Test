@@ -23,10 +23,9 @@ public class BrowserSelector extends BasePage {
             System.setProperty("webdriver.chrome.driver","C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\Resources\\BrowserDriver\\chromedriver.exe");
             DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--disable-extensions --disable-infobars --disable-save-password-bubble");
-            chromeCapabilities.setCapability("chrome.binary","<Path to binary>");
-//            chromeCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
-            driver = new ChromeDriver(chromeCapabilities);
+            options.addArguments("--disable-extensions", "--disable-infobars", "--disable-save-password-bubble","--disable-notification");
+            chromeCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
+            driver = new ChromeDriver(options);
 
         }else if(browser.equalsIgnoreCase("ie")){
             System.setProperty("webdriver.ie.driver","C:\\Users\\Gamita\\IdeaProjects\\Test\\src\\test\\Resources\\BrowserDriver\\IEDriverServer.exe");
